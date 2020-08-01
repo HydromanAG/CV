@@ -1,0 +1,197 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Ayush Garg} & Email : \href{mailto:ayushg.iitd@gmail.com}{ayushg.iitd@gmail.com}\\
+  \href{mailto:mt1180746@maths.iitd.ac.in}{Sophomore at IIT Delhi,Mathematics and Computing}
+   & Mobile : +919911545181 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute Of Technology Delhi }{Delhi, India}
+      {Bachelor Of Technology in Mathematics And Computing;  \textbf{CGPA: 9.263/10.0}}{2018 -- Present}
+    \resumeSubheading
+      {Delhi Public School Indirapuram}{Indirapuram, India}
+      {Class XII; \textbf{ 96.6\%}}{July 2018}
+    \resumeSubheading
+      {Delhi Public School Indirapuram}{Indirapuram, India}
+      {Class X; \textbf{CGPA: 10.0/10.0}}{July 2016}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Academic Achievements}
+  
+      \resumeItemListStart
+        \resumeItem{Joint Entrance Examination (Mains)}
+          {Secured \textbf{All India Rank(AIR) 28 }among \textbf{1.6 million candidates.}}
+        \resumeItem{Joint Entrance Examination (Advanced)}
+          {Secured \textbf{All India Rank(AIR) 281 }among \textbf{178,000 candidates.}}
+        \resumeItem{KVPY}
+          {Secured \textbf{All India Rank(AIR) 87 }among \textbf{200,000 candidates} and \textbf{awarded research fellowship by Dept. of Science And Technology, Govt. of India} }
+        \resumeItem{IIT Delhi Director's Merit Scholarship Award}
+          {Awarded the scholarship for being in the \textbf{Top 7\%} of all students}
+        \resumeItem{A2 Certification in German}
+          {Selected by the \textbf{German Embassy} to represent \textbf{India} in Germany along with students from \textbf{20 different countries} and thereafter awarded A2 Certification by \textbf{Goethe Institute,Germany.}}
+          
+        \resumeItem{International Olympiad of Science (iOS)}
+          {Secured \textbf{International Rank 1} among \textbf{2,50,000} candidates \textbf{from 13 countries.}}
+      \resumeItemListEnd
+
+
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+  \resumeSubheading{Reading Assistant For Visually Impaired(RAVI)}{Prof. Volker Sorge(\textbf{University of Birmingham)}}
+      {Research Project under AssisTech, IIT Delhi}{Ongoing}
+      \begin{itemize}
+          \item Focuses on making textbooks accessible to \textbf{visually impaired readers} using template based approach for augmenting image description.
+          \item Used \textbf{pixel analysis} along with \textbf{connected components} algorithms to create bounding boxes and analyse different parts of the object accordingly.
+      \end{itemize}
+      
+     \resumeSubheading{Recursive Descent Parser}{Prof. Subhashis Banerjee}
+      {Winter Semester Project}{January 2019- March 2019}
+      \begin{itemize}
+          \item Implemented symbolic differentiation of polynomial, exponential, logarithmic and trigonometric functions.
+          \item Used the shunting yard algorithm along with stacks in Python3 to make the parser efficient.
+      \end{itemize}
+
+   \resumeSubheading{OS CPU Job Scheduler}{Prof. Subodh Kumar}
+      {Winter Semester Project}{January 2019- March 2019}
+      \begin{itemize}
+          \item Implemented \textbf{Tries,Red-Black Trees and Heaps} to store information of Projects,Jobs and Users.
+          \item Programmed an allotment algorithm, which works on the principle of remaining and required budget.
+      \end{itemize}
+  \resumeSubheading{Multi Threaded E-Commerce Platform}{Prof. Subodh Kumar}
+      {Summer Semester Project}{July 2019- September 2019}
+      \begin{itemize}
+          \item Implemented an E-Commerce platform using multi threading in Java.
+          \item Sellers were assigned priorities and using the producer consumer model, ensured that the sellers with the maximum priorities are able to sell their products first.
+      \end{itemize}
+      
+       \resumeSubheading{Reverse Car Parking Sensor}{Prof. Subrat Kar}
+      {Winter Semester Project}{January 2019- March 2019}
+      \begin{itemize}
+          \item Implemented a comparator mechanism using LM741 AND LM358 ICs that would lead to increasing intensities of light and sound as the sensor came closer to an obstacle.
+          \item Tested in the real world as a part of commercialization of projects initiative resulting in a success rate of \textbf{97.41\%}.
+      \end{itemize}
+        \resumeSubheading{Triangular Mesh Analysis}{Prof. Subodh Kumar}
+      {Summer Semester Project}{July 2019- December 2019}
+      \begin{itemize}
+
+          \item Analysed a \textbf{topological triangular mesh} for boundaries, no. of connected components by mapping edges of triangles to edges in a graph.
+        \item Implemented efficient analysis algorithms \textbf{using traversals and Dijkstra's algorithm} in graphs.
+      \end{itemize}
+   
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Technical Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{: GraphQL, Javascript, Node.js, C++, Python, Java, SQL, \LaTeX{}}
+      \hfill
+      \
+    }
+     \item{
+      \textbf{Softwares}{: Swift, AutoDesk Inventor, iMovie, MS Excel}
+      \hfill
+      \
+    }
+     \item{
+      \textbf{Frameworks}{: XCode, React-Native, Ignite, AWS, Jest, Enzyme, sklearn}
+      \hfill
+      \
+    }
+  \resumeSubHeadingListEnd
+  \section{Relevant Courses}
+  \resumeSubHeadingListStart
+    \item
+    {  Calculus, Discrete Mathematics, \textbf{Linear Algebra and Applications}, Differential Equations, \textbf{Probability and Stochastic processes}, Real and Complex analysis, \textbf{Data Structures and Algorithms}, Digital Electronics,\textbf{ Analysis and Design of Algorithms}.}
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\section{Extra Curricular Activities}
+    \resumeSubHeadingListStart
+    \item{Worked as \textbf{Manager(Tech+Projects)} and currently \textbf{Team Leader, IIT Delhi} at BloodConnect-\textbf{largest youth run organization} in India in the field of voluntary Blood donation.}
+    \item{\textbf{Head of Marketing, Tryst'18}(Annual Tech Fest)}
+    \item{Mentored and Guided Freshmen as \textbf{Academic Mentor} for their \textbf{Quantum mechanics and Electro dynamics course}.}
+    \item{\textbf{Tennis Vice Captain} - Girnar Hostel}
+  \resumeSubHeadingListEnd
+
+\end{document}
